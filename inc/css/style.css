@@ -1,0 +1,26 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.section1 {
+  text-align: center;
+  padding-top: 80px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/banner_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #FFF;
+}
+
+.HTML5 {
+  color: aqua;
+}
+
+.map {
+  width: 100%;
+  height: 500px;
+  border: 0;
+}
