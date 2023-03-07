@@ -23,13 +23,11 @@ html, body {
 
 .top-nav {
   position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
   z-index: 10000;
   transition: all 0.2s ease-in-out;
   height: 80px;
-  background-color:transparent;  
+  background-color: unset;
   text-align: center;
   line-height: 25px;
   display: flex;

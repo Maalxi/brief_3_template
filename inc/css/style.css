@@ -19,6 +19,10 @@ body {
   color: aqua;
 }
 
+.tinker_section1 {
+  color: #f89626;
+}
+
 .map {
   width: 100%;
   height: 500px;
