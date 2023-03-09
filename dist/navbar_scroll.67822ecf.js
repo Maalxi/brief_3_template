@@ -122,6 +122,7 @@ window.addEventListener("scroll", function () {
   var topNav = document.querySelector(".top-nav");
   var scrollPosition = window.pageYOffset;
   if (scrollPosition > 80) {
+    console.log("Adding top-nav-scroll class");
     topNav.classList.add("top-nav-scroll");
     topNav.style.backgroundColor = "white";
     var menuItems = topNav.querySelectorAll(".menu li");
@@ -188,7 +189,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "42959" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37747" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

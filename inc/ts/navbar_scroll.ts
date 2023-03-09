@@ -3,6 +3,7 @@ window.addEventListener("scroll", function() {
   const scrollPosition = window.pageYOffset;
 
   if (scrollPosition > 80) {
+    console.log("Adding top-nav-scroll class");
     topNav.classList.add("top-nav-scroll");
     topNav.style.backgroundColor = "white";
     const menuItems = topNav.querySelectorAll(".menu li") as NodeListOf<HTMLElement>;
