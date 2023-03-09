@@ -1,0 +1,71 @@
+/* Première section */
+
+.titresection1 {
+  font-weight: 800;
+  font-size: 36px;
+}
+
+.template {
+  font-weight: 400;
+}
+
+.section1 {
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 35vh;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  height: 653px;
+  background-image: url(/banner_bg.326cf322.jpg);
+  background-position: center calc(50% + 0px); /* A mettre en place */
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.psection1 {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.HTML5 {
+  color: aqua;
+  font-weight: 800;
+}
+
+.tinker_section1 {
+  color: #f89626;
+}
+
+.bouton {
+  border: none;
+  margin: 4px 2px;
+  margin-top: 12%;
+  cursor: pointer;
+  display: inline-block;
+  background-color: #fff;
+  font-size: 13px;
+  padding: 12px 18px;
+  color: #121212;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.map {
+  width: 100%;
+  height: 500px;
+  border: 0;
+}
+
+
+/*# sourceMappingURL=/style_section1.ad7b7e2d.css.map */
