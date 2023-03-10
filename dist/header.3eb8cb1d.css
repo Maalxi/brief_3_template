@@ -15,7 +15,7 @@
 
 .top-nav-scroll {
   background-color: white; 
-  color: black !important;
+  color: black;
   transition: background-color 0.5s ease;
 }
 
@@ -36,7 +36,8 @@
 .menu li {
   margin-left: 20px;
   font-size: 18px;
-  transition: color 0.5s ease;
+  transition: background-color 0.5s ease;
+  color: #FFF
 }
 
 .menu > li {
